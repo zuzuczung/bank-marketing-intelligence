@@ -1,0 +1,10 @@
+{
+  "resource_ids_unchanged": true,
+  "chart_count": 18,
+  "keys": [
+    "database_id",
+    "dataset_id",
+    "charts",
+    "dashboard_id"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "database_id": 5,
+  "dataset_id": 52,
+  "charts": {
+    "records": 328,
+    "subscriptions": 329,
+    "conversion": 330,
+    "channel-volume": 331,
+    "channel-rate": 332,
+    "month-volume": 333,
+    "month-rate": 334,
+    "channel-detail": 335,
+    "job-rate": 336,
+    "age-rate": 337,
+    "education-rate": 338,
+    "job-detail": 339,
+    "avg-contacts": 340,
+    "prior-records": 341,
+    "contact-volume": 342,
+    "contact-rate": 343,
+    "previous-rate": 344,
+    "previous-detail": 345
+  },
+  "dashboard_id": 27,
+  "dashboard_url": "http://127.0.0.1:8088/superset/dashboard/bank-marketing-intelligence/",
+  "source": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "palette": {
+    "navy": "#35204F",
+    "teal": "#7C3AED",
+    "blue": "#9D7BD8",
+    "amber": "#B79AD9"
+  },
+  "pages": [
+    "Tổng quan",
+    "Phân khúc khách hàng",
+    "Liên hệ & lịch sử"
+  ]
+}

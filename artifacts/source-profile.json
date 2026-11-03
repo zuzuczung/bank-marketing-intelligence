@@ -1,0 +1,78 @@
+{
+  "rows": 45211,
+  "subscribers": 5289,
+  "contacts": 124956,
+  "exact_duplicate_excess": 0,
+  "blank_cells": {
+    "age": 0,
+    "job": 0,
+    "marital": 0,
+    "education": 0,
+    "default": 0,
+    "balance": 0,
+    "housing": 0,
+    "loan": 0,
+    "contact": 0,
+    "day": 0,
+    "month": 0,
+    "duration": 0,
+    "campaign": 0,
+    "pdays": 0,
+    "previous": 0,
+    "poutcome": 0,
+    "y": 0
+  },
+  "unknown_counts": {
+    "age": 0,
+    "job": 288,
+    "marital": 0,
+    "education": 1857,
+    "default": 0,
+    "balance": 0,
+    "housing": 0,
+    "loan": 0,
+    "contact": 13020,
+    "day": 0,
+    "month": 0,
+    "duration": 0,
+    "campaign": 0,
+    "pdays": 0,
+    "previous": 0,
+    "poutcome": 36959,
+    "y": 0
+  },
+  "ranges": {
+    "age": {
+      "min": 18,
+      "max": 95
+    },
+    "balance": {
+      "min": -8019,
+      "max": 102127
+    },
+    "day": {
+      "min": 1,
+      "max": 31
+    },
+    "duration": {
+      "min": 0,
+      "max": 4918
+    },
+    "campaign": {
+      "min": 1,
+      "max": 63
+    },
+    "pdays": {
+      "min": -1,
+      "max": 871
+    },
+    "previous": {
+      "min": 0,
+      "max": 275
+    }
+  },
+  "outcomes": {
+    "no": 39922,
+    "yes": 5289
+  }
+}

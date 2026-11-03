@@ -1,0 +1,408 @@
+{
+  "checks": [
+    {
+      "name": "source_row_count",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_outcomes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source_contacts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "duplicate_flag_reconciliation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unique_technical_key",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "sentinel_mapping",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "contact_history_consistency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "unknown_channels_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "no_blank_source",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "independent_groups_contact_label",
+      "passed": true,
+      "details": {
+        "groups": 3
+      }
+    },
+    {
+      "name": "independent_groups_age_band",
+      "passed": true,
+      "details": {
+        "groups": 5
+      }
+    },
+    {
+      "name": "independent_groups_job",
+      "passed": true,
+      "details": {
+        "groups": 12
+      }
+    },
+    {
+      "name": "independent_groups_education",
+      "passed": true,
+      "details": {
+        "groups": 4
+      }
+    },
+    {
+      "name": "independent_groups_month_label",
+      "passed": true,
+      "details": {
+        "groups": 12
+      }
+    },
+    {
+      "name": "independent_groups_contact_band",
+      "passed": true,
+      "details": {
+        "groups": 6
+      }
+    },
+    {
+      "name": "independent_groups_previous_outcome_label",
+      "passed": true,
+      "details": {
+        "groups": 4
+      }
+    },
+    {
+      "name": "reader_select_only",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "empty_rate_null",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "totals": {
+    "n": 45211,
+    "yes": 5289,
+    "contacts": 124956,
+    "duplicates": 0
+  },
+  "groups": {
+    "contact_label": [
+      {
+        "dimension": "Chưa rõ",
+        "n": 13020,
+        "yes": 530,
+        "contacts": 36293
+      },
+      {
+        "dimension": "Di động",
+        "n": 29285,
+        "yes": 4369,
+        "contacts": 78780
+      },
+      {
+        "dimension": "Điện thoại bàn",
+        "n": 2906,
+        "yes": 390,
+        "contacts": 9883
+      }
+    ],
+    "age_band": [
+      {
+        "dimension": "01 · Dưới 30",
+        "n": 5273,
+        "yes": 928,
+        "contacts": 13099
+      },
+      {
+        "dimension": "02 · 30–39",
+        "n": 18089,
+        "yes": 1913,
+        "contacts": 50454
+      },
+      {
+        "dimension": "03 · 40–49",
+        "n": 11655,
+        "yes": 1063,
+        "contacts": 33522
+      },
+      {
+        "dimension": "04 · 50–59",
+        "n": 8410,
+        "yes": 785,
+        "contacts": 23766
+      },
+      {
+        "dimension": "05 · Từ 60",
+        "n": 1784,
+        "yes": 600,
+        "contacts": 4115
+      }
+    ],
+    "job": [
+      {
+        "dimension": "admin.",
+        "n": 5171,
+        "yes": 631,
+        "contacts": 13317
+      },
+      {
+        "dimension": "blue-collar",
+        "n": 9732,
+        "yes": 708,
+        "contacts": 27415
+      },
+      {
+        "dimension": "entrepreneur",
+        "n": 1487,
+        "yes": 123,
+        "contacts": 4163
+      },
+      {
+        "dimension": "housemaid",
+        "n": 1240,
+        "yes": 109,
+        "contacts": 3498
+      },
+      {
+        "dimension": "management",
+        "n": 9458,
+        "yes": 1301,
+        "contacts": 27091
+      },
+      {
+        "dimension": "retired",
+        "n": 2264,
+        "yes": 516,
+        "contacts": 5313
+      },
+      {
+        "dimension": "self-employed",
+        "n": 1579,
+        "yes": 187,
+        "contacts": 4505
+      },
+      {
+        "dimension": "services",
+        "n": 4154,
+        "yes": 369,
+        "contacts": 11292
+      },
+      {
+        "dimension": "student",
+        "n": 938,
+        "yes": 269,
+        "contacts": 2157
+      },
+      {
+        "dimension": "technician",
+        "n": 7597,
+        "yes": 840,
+        "contacts": 22083
+      },
+      {
+        "dimension": "unemployed",
+        "n": 1303,
+        "yes": 202,
+        "contacts": 3169
+      },
+      {
+        "dimension": "unknown",
+        "n": 288,
+        "yes": 34,
+        "contacts": 953
+      }
+    ],
+    "education": [
+      {
+        "dimension": "primary",
+        "n": 6851,
+        "yes": 591,
+        "contacts": 19418
+      },
+      {
+        "dimension": "secondary",
+        "n": 23202,
+        "yes": 2450,
+        "contacts": 62664
+      },
+      {
+        "dimension": "tertiary",
+        "n": 13301,
+        "yes": 1996,
+        "contacts": 37583
+      },
+      {
+        "dimension": "unknown",
+        "n": 1857,
+        "yes": 252,
+        "contacts": 5291
+      }
+    ],
+    "month_label": [
+      {
+        "dimension": "01 · Tháng 1",
+        "n": 1403,
+        "yes": 142,
+        "contacts": 2346
+      },
+      {
+        "dimension": "02 · Tháng 2",
+        "n": 2649,
+        "yes": 441,
+        "contacts": 6310
+      },
+      {
+        "dimension": "03 · Tháng 3",
+        "n": 477,
+        "yes": 248,
+        "contacts": 1052
+      },
+      {
+        "dimension": "04 · Tháng 4",
+        "n": 2932,
+        "yes": 577,
+        "contacts": 5733
+      },
+      {
+        "dimension": "05 · Tháng 5",
+        "n": 13766,
+        "yes": 925,
+        "contacts": 33693
+      },
+      {
+        "dimension": "06 · Tháng 6",
+        "n": 5341,
+        "yes": 546,
+        "contacts": 16746
+      },
+      {
+        "dimension": "07 · Tháng 7",
+        "n": 6895,
+        "yes": 627,
+        "contacts": 24301
+      },
+      {
+        "dimension": "08 · Tháng 8",
+        "n": 6247,
+        "yes": 688,
+        "contacts": 24534
+      },
+      {
+        "dimension": "09 · Tháng 9",
+        "n": 579,
+        "yes": 269,
+        "contacts": 1022
+      },
+      {
+        "dimension": "10 · Tháng 10",
+        "n": 738,
+        "yes": 323,
+        "contacts": 1134
+      },
+      {
+        "dimension": "11 · Tháng 11",
+        "n": 3970,
+        "yes": 403,
+        "contacts": 7615
+      },
+      {
+        "dimension": "12 · Tháng 12",
+        "n": 214,
+        "yes": 100,
+        "contacts": 470
+      }
+    ],
+    "contact_band": [
+      {
+        "dimension": "01 · 1 lần",
+        "n": 17544,
+        "yes": 2561,
+        "contacts": 17544
+      },
+      {
+        "dimension": "02 · 2 lần",
+        "n": 12505,
+        "yes": 1401,
+        "contacts": 25010
+      },
+      {
+        "dimension": "03 · 3 lần",
+        "n": 5521,
+        "yes": 618,
+        "contacts": 16563
+      },
+      {
+        "dimension": "04 · 4–5 lần",
+        "n": 5286,
+        "yes": 456,
+        "contacts": 22908
+      },
+      {
+        "dimension": "05 · 6–10 lần",
+        "n": 3159,
+        "yes": 206,
+        "contacts": 22814
+      },
+      {
+        "dimension": "06 · Trên 10 lần",
+        "n": 1196,
+        "yes": 47,
+        "contacts": 20117
+      }
+    ],
+    "previous_outcome_label": [
+      {
+        "dimension": "Chưa rõ",
+        "n": 36959,
+        "yes": 3386,
+        "contacts": 107990
+      },
+      {
+        "dimension": "Khác",
+        "n": 1840,
+        "yes": 307,
+        "contacts": 4529
+      },
+      {
+        "dimension": "Thành công",
+        "n": 1511,
+        "yes": 978,
+        "contacts": 2729
+      },
+      {
+        "dimension": "Thất bại",
+        "n": 4901,
+        "yes": 618,
+        "contacts": 9708
+      }
+    ]
+  }
+}

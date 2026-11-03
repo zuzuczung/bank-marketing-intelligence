@@ -1,0 +1,763 @@
+{
+  "passed": 108,
+  "total": 108,
+  "native_filters": 3,
+  "checks": [
+    {
+      "chart": "records",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "records",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "records",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "records",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "records",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "records",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "subscriptions",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "subscriptions",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "subscriptions",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "subscriptions",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "subscriptions",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "subscriptions",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "conversion",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "conversion",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "conversion",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "conversion",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "conversion",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "conversion",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-volume",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "channel-volume",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-volume",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "channel-volume",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-volume",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-volume",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "channel-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "channel-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "channel-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "month-volume",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "month-volume",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "month-volume",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "month-volume",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "month-volume",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "month-volume",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "month-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "month-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "month-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "month-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "month-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "month-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "channel-detail",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "channel-detail",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-detail",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "channel-detail",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-detail",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "channel-detail",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "job-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "job-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "age-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 5,
+      "expected_groups": 5
+    },
+    {
+      "chart": "age-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 5,
+      "expected_groups": 5
+    },
+    {
+      "chart": "age-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 5,
+      "expected_groups": 5
+    },
+    {
+      "chart": "age-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 5,
+      "expected_groups": 5
+    },
+    {
+      "chart": "age-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 3,
+      "expected_groups": 3
+    },
+    {
+      "chart": "age-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "education-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "education-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "education-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "education-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "education-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "education-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "job-detail",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-detail",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-detail",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-detail",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 12,
+      "expected_groups": 12
+    },
+    {
+      "chart": "job-detail",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "job-detail",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "avg-contacts",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "avg-contacts",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "avg-contacts",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "avg-contacts",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "avg-contacts",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "avg-contacts",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "prior-records",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "prior-records",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "prior-records",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "prior-records",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "prior-records",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "prior-records",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 1,
+      "expected_groups": 1
+    },
+    {
+      "chart": "contact-volume",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-volume",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-volume",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-volume",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-volume",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-volume",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "contact-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 6,
+      "expected_groups": 6
+    },
+    {
+      "chart": "contact-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "previous-rate",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-rate",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-rate",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-rate",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-rate",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-rate",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    },
+    {
+      "chart": "previous-detail",
+      "scenario": "all",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-detail",
+      "scenario": "mobile",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-detail",
+      "scenario": "may",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-detail",
+      "scenario": "mobile_may",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-detail",
+      "scenario": "student_mobile",
+      "passed": true,
+      "actual_groups": 4,
+      "expected_groups": 4
+    },
+    {
+      "chart": "previous-detail",
+      "scenario": "empty",
+      "passed": true,
+      "actual_groups": 0,
+      "expected_groups": 0
+    }
+  ]
+}

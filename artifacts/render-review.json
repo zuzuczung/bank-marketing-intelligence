@@ -1,0 +1,23 @@
+{
+  "desktop": {
+    "width": 1280,
+    "tabs": [
+      "overview",
+      "segments",
+      "contacts"
+    ],
+    "notes": "Inspected loaded charts and tables. Age comparison uses vertical bars to avoid clipping."
+  },
+  "native_filter": {
+    "tested": "Di động → Apply → Clear all → Apply",
+    "records": 29285,
+    "subscriptions": 4369,
+    "rate": "14.9%"
+  },
+  "narrow": {
+    "width": 471,
+    "status": "limited",
+    "notes": "Native Superset grid compresses plots at narrow widths; use a wide desktop window. No custom responsive CSS retained."
+  },
+  "palette": "Lavender purple; check updated screenshots."
+}
