@@ -28,7 +28,7 @@ Một dòng là **bản ghi nguồn**, không phải khách duy nhất hoặc m�
 - **Phân khúc khách hàng:** tỷ lệ theo nghề, tuổi, học vấn; mẫu số và khoảng 95% theo nghề.
 - **Liên hệ & lịch sử:** số lần liên hệ và kết quả chiến dịch trước; quy mô và tỷ lệ tương ứng.
 
-18 biểu đồ/bảng, 1 dataset ở grain gốc, 3 bộ lọc áp dụng tất cả chart: kênh, tháng lịch, nghề. Navy `#183153`, teal `#168C92`, blue `#4C78A8`, amber `#D89A28`.
+18 biểu đồ/bảng, 1 dataset ở grain gốc, 3 bộ lọc áp dụng tất cả chart: kênh, tháng lịch, nghề. Một tông **tím lavender**: tím mận `#35204F`, tím chính `#7C3AED`, tím nhạt `#9D7BD8`, tím phụ `#B79AD9`; nền `#F7F4FC`.
 
 ## Chạy trong VS Code
 
