@@ -79,15 +79,15 @@ def main():
        chart_configuration={},color_scheme='supersetColors',label_colors={k:TEAL if k=='conversion' else BLUE for k in METRICS},
        refresh_frequency=0,expanded_slices={},timed_refresh_immune_slices=[],map_label_colors={},shared_label_colors=[],color_scheme_domain=[])
     css='''
-.dashboard-content,.dashboard-component-tabs-content{background:#F4F7FA;}
-.dashboard-component-chart-holder{border-radius:12px;background:#FFF;border:1px solid #DCE4EB;}
+.dashboard-content,.dashboard-component-tabs-content{background:#F7F4FC;}
+.dashboard-component-chart-holder{border-radius:12px;background:#FFF;border:1px solid #E5DDF0;}
 .dashboard-chart{background:transparent!important;border:0!important;}
 .dashboard-component-chart-holder .chart-slice{background:transparent;border:0;box-shadow:none;}
-.dashboard-component-chart-holder .header-title a,.dashboard-header .editable-title{color:#183153!important;}
+.dashboard-component-chart-holder .header-title a,.dashboard-header .editable-title{color:#35204F!important;}
 .dashboard-component-chart-holder .header-title a{font-size:13px!important;font-weight:600;}
-.dashboard-component-tabs .ant-tabs-tab-active .ant-tabs-tab-btn{color:#168C92!important;}
-.dashboard-component-tabs .ant-tabs-ink-bar{background:#168C92!important;}
-.dashboard-markdown{color:#52677F;font-size:12px;line-height:18px;}
+.dashboard-component-tabs .ant-tabs-tab-active .ant-tabs-tab-btn{color:#7C3AED!important;}
+.dashboard-component-tabs .ant-tabs-ink-bar{background:#7C3AED!important;}
+.dashboard-markdown{color:#6B5A7E;font-size:12px;line-height:18px;}
 '''
     body=dict(dashboard_title=name,slug=SLUG,published=True,position_json=json.dumps(layout(charts),ensure_ascii=False),json_metadata=json.dumps(meta,ensure_ascii=False),css=css)
     light=[t for t in api.all('theme') if t.get('theme_name')=='THEME_DEFAULT' and t.get('is_system')]

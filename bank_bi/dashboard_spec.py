@@ -1,5 +1,5 @@
 """One fact grain; every filter recomputes weighted rates from raw counts."""
-NAVY='#183153'; TEAL='#168C92'; BLUE='#4C78A8'; AMBER='#D89A28'
+NAVY='#35204F'; TEAL='#7C3AED'; BLUE='#9D7BD8'; AMBER='#B79AD9'
 P='SUM(subscribed)::numeric/NULLIF(COUNT(*),0)'
 N='NULLIF(COUNT(*),0)::numeric'
 C=f'(({P})+3.8416/(2*({N})))'
