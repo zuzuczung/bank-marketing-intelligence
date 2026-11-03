@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Bank BI: all","type":"shell","command":"bash run.sh all","problemMatcher":[]},{"label":"Bank BI: validate","type":"shell","command":"bash run.sh verify","problemMatcher":[]},{"label":"Bank BI: tests","type":"shell","command":".venv/bin/python -m unittest discover -s tests -v","problemMatcher":[]}]}
